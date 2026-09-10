@@ -32,4 +32,12 @@ body {
   font-family: var(--font-sans);
   /* Sin rebote horizontal en móvil. */
   overscroll-behavior-y: none;
+  /* En el gimnasio se toca la pantalla con el dedo y todo quedaba sombreado.
+     Aquí no hay nada que copiar, así que se desactiva la selección. */
+  -webkit-user-select: none;
+  user-select: none;
+  /* Sin destello gris al tocar enlaces (Android). */
+  -webkit-tap-highlight-color: transparent;
+  /* Sin menú de "copiar" al mantener presionado (iOS). */
+  -webkit-touch-callout: none;
 }
