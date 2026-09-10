@@ -1,0 +1,492 @@
+{
+  "actualizado": "2026-09-10",
+  "perfil": {
+    "tallaCm": 177,
+    "pesoKg": 88,
+    "somatotipo": "Mesomorfo",
+    "objetivo": "Ganar masa muscular y verse fuerte y estéticamente equilibrado, con prioridad en glúteo y cadena posterior; punto débil declarado: brazos"
+  },
+  "indicacionesGenerales": {
+    "calentamiento": "1) Cardio suave 5-8 min (caminadora, bici o elíptica). 2) Movilidad específica 3-5 min según el día: pierna (círculos de cadera, sentadillas al aire, balanceos de pierna), empuje (círculos de hombro, rotaciones de brazo, flexiones suaves), tirón (rotaciones de hombro, remo con banda o poco peso). 3) 2-3 series de aproximación en el primer ejercicio subiendo peso gradualmente (ej. hip thrust a 60 kg: barra sola → 30 kg → 45 kg → 60 kg). Total aproximado: 12-15 min.",
+    "progresion": "Si completa todas las series en el tope del rango con buena técnica, subir peso: +2.5-5 kg en compuestos, +1-2 kg en aislamiento. Si se queda en el rango bajo o medio, mantener el peso e intentar sumar 1 repetición. En compuestos pesados dejar 1-2 repeticiones en reserva, sin llegar al fallo; en aislamiento se puede llegar cerca del fallo en la última serie. Nunca subir peso sacrificando técnica: si hay que arquear la espalda, usar impulso o cortar el rango de movimiento, el peso está mal puesto.",
+    "otras": "Descansos: 60-90 s en aislamiento, 90-120 s en compuestos pesados. Deload cada 6-8 semanas: una semana al 50-60% del peso habitual con series bajas. La técnica va siempre antes que el peso; si al terminar la serie se siente el músculo objetivo y no otra zona (lumbar, hombro), la técnica va bien. Registrar peso y repeticiones de cada sesión para saber si hay progreso real. Proteína 1.6-2.2 g/kg (140-195 g/día), sueño 7-9 h, comer algo 1-2 h antes de entrenar y evitar entrenar en ayuno total. Si una máquina está ocupada se puede reordenar la sesión manteniendo los compuestos pesados antes que los de aislamiento, pero sin saltarse el ejercicio principal del día."
+  },
+  "semana": [
+    {
+      "dia": "lunes",
+      "nombreDia": "Lunes",
+      "tipo": "entrenamiento",
+      "titulo": "Pierna A · Glúteo",
+      "gruposMusculares": ["Glúteo", "Isquiotibiales", "Cuádriceps", "Gemelo"],
+      "ejercicios": [
+        {
+          "id": "hip-thrust-maquina",
+          "nombre": "Hip thrust en máquina",
+          "series": 4,
+          "repeticiones": "8-10",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "Hip thrust con barra y banco",
+          "notas": "Espalda apoyada en el respaldo, cinturón sobre la cadera. Extender bien la cadera arriba y apretar el glúteo en el punto alto."
+        },
+        {
+          "id": "peso-muerto-rumano",
+          "nombre": "Peso muerto rumano (RDL)",
+          "series": 3,
+          "repeticiones": "10-12",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Rodillas semi-flexionadas fijas. Empujar la cadera atrás con el peso pegado a las piernas hasta sentir estiramiento en isquios."
+        },
+        {
+          "id": "sentadilla-bulgara",
+          "nombre": "Sentadilla búlgara",
+          "series": 3,
+          "repeticiones": "10-12",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Por pierna. Pie trasero en el banco, bajar hasta ~90° en la rodilla delantera. El peso recae en la pierna de adelante."
+        },
+        {
+          "id": "zancadas-caminando",
+          "nombre": "Zancadas caminando",
+          "series": 3,
+          "repeticiones": "12",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Por pierna. Paso largo, rodilla trasera casi al piso, empujar con el talón delantero para avanzar."
+        },
+        {
+          "id": "abduccion-cadera-maquina",
+          "nombre": "Abducción de cadera en máquina",
+          "series": 3,
+          "repeticiones": "15-20",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "Abducción con banda de pie",
+          "notas": "Espalda apoyada. Separar contra la resistencia y controlar la vuelta sin dejar que cierre de golpe."
+        },
+        {
+          "id": "curl-femoral",
+          "nombre": "Curl femoral",
+          "series": 3,
+          "repeticiones": "12-15",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "Peso muerto rumano ligero",
+          "notas": "Cadera fija contra el cojín. Talón hacia el glúteo, controlar la bajada."
+        },
+        {
+          "id": "gemelos-de-pie",
+          "nombre": "Gemelos de pie",
+          "series": 3,
+          "repeticiones": "15",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Extender el tobillo al máximo arriba, bajar hasta estiramiento completo."
+        }
+      ],
+      "cardio": "",
+      "notas": "Día de pierna colocado lo más lejos posible de los partidos de fútbol."
+    },
+    {
+      "dia": "martes",
+      "nombreDia": "Martes",
+      "tipo": "entrenamiento",
+      "titulo": "Empuje A",
+      "gruposMusculares": ["Pecho", "Hombro", "Tríceps"],
+      "ejercicios": [
+        {
+          "id": "press-banca-barra",
+          "nombre": "Press banca con barra",
+          "series": 4,
+          "repeticiones": "6-10",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Escápulas retraídas y pegadas al banco. Barra roza el pecho a la altura de las tetillas, glúteos sin despegar. Agarre ~1.5× el ancho de hombros: al bajar, los antebrazos deben quedar verticales."
+        },
+        {
+          "id": "press-militar-mancuerna",
+          "nombre": "Press militar con mancuerna",
+          "series": 3,
+          "repeticiones": "8-10",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Mancuernas a la altura de los hombros. Empujar en línea recta sin arquear la espalda baja."
+        },
+        {
+          "id": "press-inclinado-mancuerna",
+          "nombre": "Press inclinado con mancuerna",
+          "series": 3,
+          "repeticiones": "10-12",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Banco a 30-45°. Bajar a los lados del pecho alto, empujar en diagonal sin chocar las mancuernas."
+        },
+        {
+          "id": "elevaciones-laterales-mancuerna",
+          "nombre": "Elevaciones laterales con mancuernas",
+          "series": 3,
+          "repeticiones": "12-15",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Codos con leve flexión. Subir hasta la altura del hombro, no más. Sin impulso."
+        },
+        {
+          "id": "fondos-paralelas",
+          "nombre": "Fondos en paralelas",
+          "series": 3,
+          "repeticiones": "10-12",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Inclinado adelante = más pecho, vertical = más tríceps. Bajar hasta sentir estiramiento en el hombro."
+        },
+        {
+          "id": "extension-triceps-polea",
+          "nombre": "Extensión de tríceps en polea",
+          "series": 3,
+          "repeticiones": "12-15",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Codos pegados al cuerpo sin moverlos. Abrir al final, subir controlado."
+        }
+      ],
+      "cardio": "",
+      "notas": ""
+    },
+    {
+      "dia": "miercoles",
+      "nombreDia": "Miércoles",
+      "tipo": "entrenamiento",
+      "titulo": "Tirón A",
+      "gruposMusculares": ["Espalda", "Deltoide posterior", "Bíceps"],
+      "ejercicios": [
+        {
+          "id": "jalon-al-pecho",
+          "nombre": "Dominadas asistidas o jalón al pecho",
+          "series": 4,
+          "repeticiones": "8-10",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "Dominadas asistidas",
+          "notas": "Torso ligeramente inclinado atrás. Barra a la parte alta del pecho llevando los codos abajo."
+        },
+        {
+          "id": "remo-con-barra",
+          "nombre": "Remo con barra",
+          "series": 3,
+          "repeticiones": "8-10",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "Remo con mancuerna a una mano",
+          "notas": "Torso casi paralelo al piso, espalda recta. Barra al abdomen apretando los omóplatos."
+        },
+        {
+          "id": "remo-polea-baja",
+          "nombre": "Remo en polea baja",
+          "series": 3,
+          "repeticiones": "10-12",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Rodillas semi-flexionadas, espalda recta y fija. Tirar el agarre al abdomen apretando la espalda al final."
+        },
+        {
+          "id": "face-pull",
+          "nombre": "Face pull",
+          "series": 3,
+          "repeticiones": "15",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Polea a la altura de la cara. Separar las manos con los codos altos. Peso ligero: es de técnica, no de carga."
+        },
+        {
+          "id": "curl-con-barra",
+          "nombre": "Curl con barra",
+          "series": 3,
+          "repeticiones": "10-12",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Codos pegados al cuerpo sin moverlos. Contraer arriba, bajar controlado."
+        },
+        {
+          "id": "curl-martillo",
+          "nombre": "Curl martillo",
+          "series": 3,
+          "repeticiones": "12",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Palma hacia adentro durante todo el movimiento, sin girar la muñeca. Trabaja también antebrazo."
+        }
+      ],
+      "cardio": "",
+      "notas": "Día de fútbol. Sesión de tren superior a propósito: no interfiere con las piernas para el partido."
+    },
+    {
+      "dia": "jueves",
+      "nombreDia": "Jueves",
+      "tipo": "entrenamiento",
+      "titulo": "Pierna B · Cuádriceps",
+      "gruposMusculares": ["Cuádriceps", "Glúteo", "Isquiotibiales", "Sóleo"],
+      "ejercicios": [
+        {
+          "id": "hack-squat",
+          "nombre": "Hack squat (máquina)",
+          "series": 3,
+          "repeticiones": "8-10",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "Prensa de piernas",
+          "notas": "Espalda y hombros firmes contra el respaldo. Bajar a ~90°, empujar con el talón sin despegarlo."
+        },
+        {
+          "id": "prensa-de-piernas",
+          "nombre": "Prensa de piernas",
+          "series": 3,
+          "repeticiones": "10-12",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "Hack squat",
+          "notas": "Pies altos y separados para más énfasis en glúteo. No cerrar rodillas hacia adentro ni bloquear arriba."
+        },
+        {
+          "id": "step-ups-mancuernas",
+          "nombre": "Step-ups con mancuernas",
+          "series": 3,
+          "repeticiones": "10",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Por pierna. Subir empujando con el talón de la pierna que está sobre el banco, no con la de apoyo en el piso."
+        },
+        {
+          "id": "hip-thrust-una-pierna",
+          "nombre": "Hip thrust a una pierna",
+          "series": 3,
+          "repeticiones": "12-15",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Una pierna en el piso hace todo el trabajo, la otra estirada al aire. Apretar fuerte el glúteo arriba antes de bajar."
+        },
+        {
+          "id": "extension-cuadriceps",
+          "nombre": "Extensión de cuádriceps",
+          "series": 2,
+          "repeticiones": "12-15",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Rodillas alineadas con el eje de la máquina. Extender sin bloquear, bajar controlado."
+        },
+        {
+          "id": "curl-femoral",
+          "nombre": "Curl femoral",
+          "series": 2,
+          "repeticiones": "12",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "Peso muerto rumano ligero",
+          "notas": "Cadera fija contra el cojín. Talón hacia el glúteo, controlar la bajada."
+        },
+        {
+          "id": "gemelos-sentado",
+          "nombre": "Gemelos sentado",
+          "series": 3,
+          "repeticiones": "15",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Rodillas a 90° con el cojín encima. Extender el tobillo al máximo arriba. Sentado carga más el sóleo."
+        }
+      ],
+      "cardio": "",
+      "notas": ""
+    },
+    {
+      "dia": "viernes",
+      "nombreDia": "Viernes",
+      "tipo": "entrenamiento",
+      "titulo": "Empuje B",
+      "gruposMusculares": ["Pecho", "Hombro", "Tríceps"],
+      "ejercicios": [
+        {
+          "id": "press-inclinado-barra",
+          "nombre": "Press inclinado con barra",
+          "series": 4,
+          "repeticiones": "8-10",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Banco a 30-45°. Bajar a la parte alta del pecho, empujar sin despegar los glúteos del banco."
+        },
+        {
+          "id": "press-militar-barra",
+          "nombre": "Press militar con barra",
+          "series": 3,
+          "repeticiones": "8-10",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Barra a la altura de la clavícula. Empujar en línea recta sin arquear la espalda baja."
+        },
+        {
+          "id": "aperturas-pec-deck",
+          "nombre": "Aperturas en máquina (pec deck)",
+          "series": 3,
+          "repeticiones": "12-15",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "Aperturas con mancuernas",
+          "notas": "Codos con leve flexión fija. Juntar apretando el pecho, controlar la apertura."
+        },
+        {
+          "id": "elevaciones-laterales-polea",
+          "nombre": "Elevaciones laterales en polea",
+          "series": 3,
+          "repeticiones": "15",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Polea baja a un costado. Subir hasta la altura del hombro con leve flexión de codo, sin impulso. La polea da tensión constante desde el inicio."
+        },
+        {
+          "id": "press-frances-mancuerna",
+          "nombre": "Press francés con mancuerna",
+          "series": 3,
+          "repeticiones": "10-12",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Bajar la mancuerna detrás de la cabeza flexionando solo el codo. El brazo se queda fijo."
+        },
+        {
+          "id": "extension-triceps-cuerda",
+          "nombre": "Extensión de tríceps con cuerda",
+          "series": 3,
+          "repeticiones": "15",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Codos pegados al cuerpo sin moverlos. Abrir la cuerda al final, subir controlado."
+        },
+        {
+          "id": "patada-triceps-mancuerna",
+          "nombre": "Patada de tríceps con mancuerna",
+          "series": 3,
+          "repeticiones": "12-15",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Torso inclinado, codo fijo a 90° pegado al costado. Extender el antebrazo hacia atrás y apretar arriba. Añadido para reforzar el volumen de brazo."
+        }
+      ],
+      "cardio": "",
+      "notas": ""
+    },
+    {
+      "dia": "sabado",
+      "nombreDia": "Sábado",
+      "tipo": "entrenamiento",
+      "titulo": "Tirón B",
+      "gruposMusculares": ["Espalda", "Deltoide posterior", "Bíceps", "Cadena posterior"],
+      "ejercicios": [
+        {
+          "id": "peso-muerto-convencional",
+          "nombre": "Peso muerto convencional",
+          "series": 3,
+          "repeticiones": "6-8",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Barra pegada a las espinillas al iniciar. Espalda recta. Empujar el piso con los pies y extender cadera y rodillas a la vez."
+        },
+        {
+          "id": "jalon-al-pecho-agarre-cerrado",
+          "nombre": "Jalón al pecho agarre cerrado",
+          "series": 3,
+          "repeticiones": "10-12",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "Jalón agarre neutro",
+          "notas": "Torso ligeramente inclinado atrás. Barra a la parte alta del pecho llevando los codos abajo."
+        },
+        {
+          "id": "remo-en-maquina",
+          "nombre": "Remo en máquina",
+          "series": 3,
+          "repeticiones": "10-12",
+          "descansoSeg": 90,
+          "pesoSugerido": "",
+          "alternativa": "Remo con barra",
+          "notas": "Máquina Hammer Strength. Pecho apoyado en el cojín, codos detrás del torso, apretar la espalda al final."
+        },
+        {
+          "id": "face-pull",
+          "nombre": "Face pull / pájaros",
+          "series": 3,
+          "repeticiones": "15",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "Pájaros con mancuernas",
+          "notas": "Polea a la altura de la cara. Separar las manos con los codos altos. Peso ligero y controlado."
+        },
+        {
+          "id": "curl-inclinado-mancuernas",
+          "nombre": "Curl inclinado con mancuernas",
+          "series": 3,
+          "repeticiones": "12",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Brazos colgando desde el hombro sin adelantar el codo. Estira más el bíceps que el curl de pie."
+        },
+        {
+          "id": "curl-concentrado",
+          "nombre": "Curl concentrado",
+          "series": 3,
+          "repeticiones": "12",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Codo apoyado en la cara interna del muslo. Subir solo con el bíceps, sin balancear el cuerpo."
+        },
+        {
+          "id": "curl-barra-z-21s",
+          "nombre": "Curl con barra Z (protocolo 21s)",
+          "series": 1,
+          "repeticiones": "21",
+          "descansoSeg": 60,
+          "pesoSugerido": "",
+          "alternativa": "",
+          "notas": "Serie única al fallo. 7 repeticiones parciales de abajo a la mitad + 7 parciales de la mitad a arriba + 7 completas, sin soltar la barra. Peso más ligero que el curl normal. Finisher añadido para reforzar el volumen de brazo."
+        }
+      ],
+      "cardio": "",
+      "notas": "Día de fútbol. Sesión de tren superior a propósito: no interfiere con las piernas para el partido."
+    },
+    {
+      "dia": "domingo",
+      "nombreDia": "Domingo",
+      "tipo": "descanso",
+      "titulo": "Descanso",
+      "gruposMusculares": [],
+      "ejercicios": [],
+      "cardio": "",
+      "notas": "Único día de descanso fijo de la semana."
+    }
+  ]
+}
