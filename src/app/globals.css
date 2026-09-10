@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Paleta oscura fija: la app se ve igual siempre, sin depender del tema del
+   celular. Un solo acento (cian) y un color de aviso (ámbar) para las notas. */
+@theme {
+  --color-fondo: #0a0d11;
+  --color-superficie: #141a21;
+  --color-superficie-alta: #1c242e;
+  --color-borde: #27313d;
+  --color-texto: #f3f6f9;
+  --color-tenue: #93a1b1;
+  --color-acento: #38bdf8;
+  --color-acento-tenue: #0d2b3d;
+  --color-aviso: #fbbf24;
+  --color-aviso-tenue: #2e2411;
+  --color-descanso: #a78bfa;
+  --color-descanso-tenue: #241d3b;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  color-scheme: dark;
+  /* Evita que iOS agrande el texto al girar el teléfono. */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: var(--font-sans);
+  /* Sin rebote horizontal en móvil. */
+  overscroll-behavior-y: none;
+}
