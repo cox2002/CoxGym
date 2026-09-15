@@ -315,7 +315,8 @@ export default function PaginaCuenta() {
       {!SUPABASE_CONFIGURADO ? (
         <div className="mt-6">
           <Aviso tipo="error">
-            Falta configurar Supabase (NEXT_PUBLIC_SUPABASE_URL y NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY).
+            Falta configurar Supabase o está mal escrito: NEXT_PUBLIC_SUPABASE_URL debe ser solo
+            https://xxxx.supabase.co y NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY la clave sb_publishable_…
           </Aviso>
         </div>
       ) : cargando ? (

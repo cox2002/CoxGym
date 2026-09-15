@@ -5,11 +5,26 @@ import type { Database } from "@/types/supabase";
 
 export type ClienteSupabase = SupabaseClient<Database>;
 
-const URL_PROYECTO = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const CLAVE_PUBLICABLE = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
+/** Solo una URL http(s) válida; cualquier otra cosa cuenta como no configurada. */
+function urlValida(valor: string | undefined): string | undefined {
+  const limpio = valor?.trim();
+  return limpio && /^https?:\/\/[^\s[\]()]+$/.test(limpio) ? limpio : undefined;
+}
 
-/** Faltan las variables de entorno: la app funciona, pero sin nube. */
+const URL_PROYECTO = urlValida(process.env.NEXT_PUBLIC_SUPABASE_URL);
+const CLAVE_PUBLICABLE = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY?.trim();
+
+/**
+ * Faltan (o están mal escritas) las variables de entorno: la app funciona,
+ * pero solo guarda en el teléfono. Nunca debe romper la app entera.
+ */
 export const SUPABASE_CONFIGURADO = Boolean(URL_PROYECTO && CLAVE_PUBLICABLE);
+
+if (!SUPABASE_CONFIGURADO && process.env.NEXT_PUBLIC_SUPABASE_URL) {
+  console.warn(
+    "[CoxGym] NEXT_PUBLIC_SUPABASE_URL no es una URL válida: debe ser solo https://xxxx.supabase.co",
+  );
+}
 
 let cliente: ClienteSupabase | null = null;
 
