@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import VistaDia from "@/components/VistaDia";
 import { DIAS, getDia } from "@/lib/rutina";
@@ -31,30 +30,5 @@ export default async function PaginaDia({ params }: PageProps<"/dia/[dia]">) {
     notFound();
   }
 
-  return (
-    <div>
-      <div className="px-4 pt-6">
-        <Link
-          href="/semana"
-          className="inline-flex items-center gap-1 text-base font-semibold text-acento"
-        >
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="size-5"
-            aria-hidden="true"
-          >
-            <path d="m15 6-6 6 6 6" />
-          </svg>
-          Semana
-        </Link>
-      </div>
-
-      <VistaDia dia={datos} />
-    </div>
-  );
+  return <VistaDia dia={datos} conVolver />;
 }

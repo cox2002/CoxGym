@@ -1,0 +1,724 @@
+{
+  "commit": "7455efae41b330c265e7cd4b78dfa848e7ce5ebd",
+  "ejercicios": {
+    "1350": {
+      "nombre": "lever seated row",
+      "equipo": "leverage machine",
+      "objetivo": "upper back",
+      "secundarios": [
+        "biceps",
+        "forearms"
+      ],
+      "pasos": [
+        "Ajusta la altura del asiento y los apoyapiés a una posición cómoda.",
+        "Siéntate en la máquina con el pecho apoyado en la almohadilla y los pies sobre los apoyapiés.",
+        "Agarra las asas con un agarre prono, con las manos separadas a la altura de los hombros.",
+        "Mantén la espalda recta y el core activado.",
+        "Jala las agarraderas hacia el cuerpo, apretando los omóplatos entre sí.",
+        "Haz una pausa breve en la parte alta del movimiento.",
+        "Suelta lentamente las asas y vuelve a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/1350-7I6LNUG.gif",
+      "imagen": "images/1350-7I6LNUG.jpg"
+    },
+    "1409": {
+      "nombre": "barbell glute bridge",
+      "equipo": "barbell",
+      "objetivo": "glutes",
+      "secundarios": [
+        "hamstrings",
+        "lower back"
+      ],
+      "pasos": [
+        "Empieza tumbado boca arriba en el suelo con las rodillas flexionadas y los pies planos sobre el suelo.",
+        "Coloca una barra sobre las caderas, sujetándola con firmeza con ambas manos.",
+        "Activa los glúteos y el core, luego levanta las caderas del suelo hasta que el cuerpo forme una línea recta desde las rodillas hasta los hombros.",
+        "Haz una pausa breve en la parte alta, apretando los glúteos.",
+        "Baja lentamente las caderas de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/1409-qKBpF7I.gif",
+      "imagen": "images/1409-qKBpF7I.jpg"
+    },
+    "1456": {
+      "nombre": "barbell standing close grip military press",
+      "equipo": "barbell",
+      "objetivo": "delts",
+      "secundarios": [
+        "triceps",
+        "upper back"
+      ],
+      "pasos": [
+        "Ponte de pie con los pies separados a la altura de los hombros y sujeta la barra con agarre prono, manos un poco más juntas que el ancho de los hombros.",
+        "Levanta la barra hasta la altura de los hombros, manteniendo los codos cerca del cuerpo.",
+        "Empuja la barra por encima de la cabeza, extendiendo completamente los brazos.",
+        "Baja la barra de nuevo a la altura de los hombros.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/1456-wdRZISl.gif",
+      "imagen": "images/1456-wdRZISl.jpg"
+    },
+    "1460": {
+      "nombre": "walking lunge",
+      "equipo": "body weight",
+      "objetivo": "glutes",
+      "secundarios": [
+        "quadriceps",
+        "hamstrings",
+        "calves"
+      ],
+      "pasos": [
+        "Ponte de pie con los pies separados a la altura de los hombros.",
+        "Da un paso adelante con la pierna derecha, bajando el cuerpo a una posición de zancada.",
+        "Mantén el torso erguido y la rodilla delantera alineada con el tobillo.",
+        "Empújate con el pie derecho y lleva el pie izquierdo hacia adelante, entrando en una posición de zancada con la pierna izquierda.",
+        "Continúa alternando las piernas y avanzando, manteniendo un ritmo controlado y constante.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/1460-IZVHb27.gif",
+      "imagen": "images/1460-IZVHb27.jpg"
+    },
+    "1463": {
+      "nombre": "sled 45° leg press (side pov)",
+      "equipo": "sled machine",
+      "objetivo": "glutes",
+      "secundarios": [
+        "quadriceps",
+        "hamstrings",
+        "calves"
+      ],
+      "pasos": [
+        "Ajusta el asiento de la máquina de trineo de modo que las rodillas queden en un ángulo de 90 grados cuando los pies estén sobre la placa.",
+        "Siéntate en la máquina de trineo con la espalda plana contra el respaldo y los pies separados a la altura de los hombros sobre la placa.",
+        "Sujeta las asas a los lados del asiento para mayor estabilidad.",
+        "Empuja contra la placa para extender las piernas, estirándolas por completo.",
+        "Haz una pausa por un momento en la posición alta, luego dobla lentamente las rodillas para bajar la placa de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/1463-2Qh2J1e.gif",
+      "imagen": "images/1463-2Qh2J1e.jpg"
+    },
+    "2188": {
+      "nombre": "dumbbell seated triceps extension",
+      "equipo": "dumbbell",
+      "objetivo": "triceps",
+      "secundarios": [
+        "shoulders"
+      ],
+      "pasos": [
+        "Siéntate en un banco con la espalda recta y los pies planos sobre el suelo.",
+        "Sujeta una mancuerna con ambas manos y extiende los brazos rectos por encima de la cabeza.",
+        "Flexiona los codos y baja la mancuerna detrás de la cabeza, manteniendo la parte superior de los brazos cerca de las orejas.",
+        "Haz una pausa por un momento, luego endereza los brazos y vuelve a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/2188-kont8Ut.gif",
+      "imagen": "images/2188-kont8Ut.jpg"
+    },
+    "2330": {
+      "nombre": "cable lat pulldown full range of motion",
+      "equipo": "cable",
+      "objetivo": "lats",
+      "secundarios": [
+        "biceps",
+        "rhomboids",
+        "rear deltoids"
+      ],
+      "pasos": [
+        "Siéntate en la máquina de jalón al pecho con las rodillas colocadas debajo de las almohadillas.",
+        "Sujeta la barra del cable con un agarre prono, un poco más separado que el ancho de los hombros.",
+        "Inclínate ligeramente hacia atrás y mantén el pecho elevado, conservando un ligero arco en la zona lumbar.",
+        "Jala la barra hacia la parte superior del pecho, apretando los omóplatos entre sí.",
+        "Haz una pausa por un momento en la parte baja del movimiento y luego suelta lentamente la barra de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/2330-LEprlgG.gif",
+      "imagen": "images/2330-LEprlgG.jpg"
+    },
+    "2616": {
+      "nombre": "cable lateral pulldown with v-bar",
+      "equipo": "cable",
+      "objetivo": "lats",
+      "secundarios": [
+        "biceps",
+        "forearms"
+      ],
+      "pasos": [
+        "Siéntate en la máquina de jalón de cable y agarra el accesorio en V con un agarre prono.",
+        "Ajusta la almohadilla de rodillas para que tus muslos queden asegurados debajo de ella.",
+        "Mantén la espalda recta e inclínate ligeramente hacia atrás.",
+        "Jala el accesorio en V hacia la parte superior del pecho manteniendo los codos cerca del cuerpo.",
+        "Aprieta los músculos de la espalda en la parte baja del movimiento.",
+        "Regresa lentamente el accesorio en V a la posición inicial y repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/2616-4c9BhzB.gif",
+      "imagen": "images/2616-4c9BhzB.jpg"
+    },
+    "3645": {
+      "nombre": "single leg bridge with outstretched leg",
+      "equipo": "body weight",
+      "objetivo": "glutes",
+      "secundarios": [
+        "hamstrings",
+        "quadriceps"
+      ],
+      "pasos": [
+        "Túmbate sobre tu espalda con las rodillas flexionadas y los pies apoyados en el suelo.",
+        "Extiende una pierna recta hacia delante.",
+        "Activa los glúteos y levanta las caderas del suelo, formando una línea recta desde las rodillas hasta los hombros.",
+        "Mantén la posición alta por un momento, luego baja lentamente las caderas de nuevo a la posición inicial.",
+        "Repite el número de repeticiones deseado, luego cambia de pierna."
+      ],
+      "gif": "videos/3645-rmEukuS.gif",
+      "imagen": "images/3645-rmEukuS.jpg"
+    },
+    "0025": {
+      "nombre": "barbell bench press",
+      "equipo": "barbell",
+      "objetivo": "pectorals",
+      "secundarios": [
+        "triceps",
+        "shoulders"
+      ],
+      "pasos": [
+        "Túmbate sobre un banco con los pies apoyados en el suelo y la espalda presionada contra el banco.",
+        "Agarra la barra con un agarre pronado un poco más ancho que la separación de los hombros.",
+        "Levanta la barra del soporte y sostenla directamente sobre el pecho con los brazos completamente extendidos.",
+        "Baja la barra lentamente hacia el pecho, manteniendo los codos pegados al cuerpo.",
+        "Haz una pausa breve cuando la barra toque el pecho.",
+        "Empuja la barra de vuelta a la posición inicial extendiendo los brazos.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0025-EIeI8Vf.gif",
+      "imagen": "images/0025-EIeI8Vf.jpg"
+    },
+    "0027": {
+      "nombre": "barbell bent over row",
+      "equipo": "barbell",
+      "objetivo": "upper back",
+      "secundarios": [
+        "biceps",
+        "forearms"
+      ],
+      "pasos": [
+        "Ponte de pie con los pies separados a la altura de los hombros y las rodillas ligeramente flexionadas.",
+        "Inclínate hacia delante desde las caderas manteniendo la espalda recta y el pecho elevado.",
+        "Agarra la barra con un agarre pronado, con las manos un poco más separadas que el ancho de los hombros.",
+        "Tira de la barra hacia la parte inferior del pecho retrayendo los omóplatos y contrayendo los músculos de la espalda.",
+        "Haz una pausa breve en la parte alta y luego baja lentamente la barra de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0027-eZyBC3j.gif",
+      "imagen": "images/0027-eZyBC3j.jpg"
+    },
+    "0031": {
+      "nombre": "barbell curl",
+      "equipo": "barbell",
+      "objetivo": "biceps",
+      "secundarios": [
+        "forearms"
+      ],
+      "pasos": [
+        "Ponte de pie con los pies separados a la altura de los hombros y sujeta una barra con un agarre supino, con las palmas mirando hacia delante.",
+        "Mantén los codos cerca del torso y exhala mientras levantas el peso contrayendo los bíceps.",
+        "Continúa levantando la barra hasta que los bíceps estén completamente contraídos y la barra esté a la altura de los hombros.",
+        "Mantén la posición contraída durante una breve pausa mientras aprietas los bíceps.",
+        "Inhala mientras comienzas a bajar lentamente la barra de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0031-25GPyDY.gif",
+      "imagen": "images/0031-25GPyDY.jpg"
+    },
+    "0032": {
+      "nombre": "barbell deadlift",
+      "equipo": "barbell",
+      "objetivo": "glutes",
+      "secundarios": [
+        "hamstrings",
+        "lower back"
+      ],
+      "pasos": [
+        "Ponte de pie con los pies separados a la altura de los hombros y la barra en el suelo frente a ti.",
+        "Flexiona las rodillas y las caderas para bajar el torso y agarra la barra con un agarre pronado, con las manos un poco más separadas que el ancho de los hombros.",
+        "Mantén la espalda recta y el pecho elevado mientras empujas con los talones para levantar la barra del suelo, extendiendo las caderas y las rodillas.",
+        "Al ponerte de pie, aprieta los glúteos y mantén el core activado.",
+        "Baja la barra de vuelta al suelo flexionando las caderas y las rodillas, manteniendo la espalda recta.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0032-ila4NZS.gif",
+      "imagen": "images/0032-ila4NZS.jpg"
+    },
+    "0047": {
+      "nombre": "barbell incline bench press",
+      "equipo": "barbell",
+      "objetivo": "pectorals",
+      "secundarios": [
+        "shoulders",
+        "triceps"
+      ],
+      "pasos": [
+        "Coloca un banco inclinado a un ángulo de 45 grados.",
+        "Túmbate en el banco con los pies planos sobre el suelo.",
+        "Agarra la barra con un agarre pronado un poco más ancho que la separación de los hombros.",
+        "Saca la barra del soporte y bájala lentamente hacia el pecho, manteniendo los codos a un ángulo de 45 grados.",
+        "Haz una pausa breve en la parte baja y luego empuja la barra de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0047-3TZduzM.gif",
+      "imagen": "images/0047-3TZduzM.jpg"
+    },
+    "0085": {
+      "nombre": "barbell romanian deadlift",
+      "equipo": "barbell",
+      "objetivo": "glutes",
+      "secundarios": [
+        "hamstrings",
+        "lower back"
+      ],
+      "pasos": [
+        "Ponte de pie con los pies separados a la altura de los hombros y los dedos de los pies apuntando hacia delante.",
+        "Sujeta la barra con un agarre pronado, manos un poco más separadas que el ancho de los hombros.",
+        "Flexiona las caderas, manteniendo la espalda recta y las rodillas ligeramente flexionadas.",
+        "Baja la barra hacia el suelo, manteniéndola cerca del cuerpo.",
+        "Siente el estiramiento en los isquiotibiales mientras bajas la barra.",
+        "Cuando sientas el estiramiento en los isquiotibiales, empuja las caderas hacia delante y ponte de pie.",
+        "Aprieta los glúteos en la parte alta del movimiento.",
+        "Baja la barra de vuelta a la posición inicial y repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0085-wQ2c4XD.gif",
+      "imagen": "images/0085-wQ2c4XD.jpg"
+    },
+    "0192": {
+      "nombre": "cable one arm lateral raise",
+      "equipo": "cable",
+      "objetivo": "delts",
+      "secundarios": [
+        "traps",
+        "triceps"
+      ],
+      "pasos": [
+        "Ponte de pie con los pies separados a la altura de los hombros, frente a la máquina de cable.",
+        "Sujeta la agarradera del cable con una mano, con la palma hacia abajo, y colócate lo suficientemente alejado de la máquina para que haya tensión en el cable.",
+        "Mantén el brazo recto y levántalo lentamente hacia el lado hasta que quede paralelo al suelo.",
+        "Haz una pausa breve en la parte más alta, luego baja lentamente el brazo de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado, luego cambia de lado."
+      ],
+      "gif": "videos/0192-wEulIzp.gif",
+      "imagen": "images/0192-wEulIzp.jpg"
+    },
+    "0200": {
+      "nombre": "cable pushdown (with rope attachment)",
+      "equipo": "cable",
+      "objetivo": "triceps",
+      "secundarios": [
+        "forearms"
+      ],
+      "pasos": [
+        "Sujeta un accesorio de cuerda a una polea alta en una máquina de cable.",
+        "Ponte de pie frente a la máquina con los pies separados a la altura de los hombros y una ligera flexión en las rodillas.",
+        "Sujeta la cuerda con un agarre prono, con las palmas una frente a la otra.",
+        "Mantén los codos cerca de los costados y los brazos superiores quietos durante todo el ejercicio.",
+        "Exhala y empuja la cuerda hacia abajo extendiendo los codos hasta que los brazos queden completamente extendidos.",
+        "Haz una pausa por un momento, luego inhala y regresa lentamente a la posición inicial permitiendo que los codos se flexionen.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0200-dU605di.gif",
+      "imagen": "images/0200-dU605di.jpg"
+    },
+    "0201": {
+      "nombre": "cable pushdown",
+      "equipo": "cable",
+      "objetivo": "triceps",
+      "secundarios": [
+        "forearms"
+      ],
+      "pasos": [
+        "Sujeta una barra recta a una máquina de cable con polea alta.",
+        "Ponte de pie frente a la máquina con los pies separados a la altura de los hombros y una ligera flexión en las rodillas.",
+        "Sujeta la barra con un agarre prono, con las manos separadas a la altura de los hombros.",
+        "Mantén los codos cerca de los costados y los brazos superiores quietos.",
+        "Exhala y empuja la barra hacia abajo hasta que los codos queden completamente extendidos.",
+        "Haz una pausa por un momento, luego inhala y regresa lentamente la barra a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0201-3ZflifB.gif",
+      "imagen": "images/0201-3ZflifB.jpg"
+    },
+    "0203": {
+      "nombre": "cable rear delt row (with rope)",
+      "equipo": "cable",
+      "objetivo": "delts",
+      "secundarios": [
+        "trapezius",
+        "rhomboids",
+        "biceps"
+      ],
+      "pasos": [
+        "Sujeta una agarradera de cuerda a una máquina de cable con polea baja.",
+        "Ponte de pie frente a la máquina con los pies separados a la altura de los hombros.",
+        "Sujeta la agarradera de cuerda con un agarre prono, con las palmas una frente a la otra.",
+        "Flexiona ligeramente las rodillas e inclínate hacia adelante desde las caderas, manteniendo la espalda recta.",
+        "Mantén los codos ligeramente flexionados y jala la cuerda hacia el pecho, apretando los omóplatos entre sí.",
+        "Haz una pausa por un momento en la parte más alta del movimiento y luego libera lentamente la tensión, regresando a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0203-wqNPGCg.gif",
+      "imagen": "images/0203-wqNPGCg.jpg"
+    },
+    "0251": {
+      "nombre": "chest dip",
+      "equipo": "body weight",
+      "objetivo": "pectorals",
+      "secundarios": [
+        "triceps",
+        "shoulders"
+      ],
+      "pasos": [
+        "Colócate en las barras paralelas con los brazos completamente extendidos y el cuerpo recto.",
+        "Baja el cuerpo flexionando los codos hasta que los hombros queden por debajo de los codos.",
+        "Empújate de vuelta hacia arriba a la posición inicial extendiendo los brazos.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0251-9WTm7dq.gif",
+      "imagen": "images/0251-9WTm7dq.jpg"
+    },
+    "0297": {
+      "nombre": "dumbbell concentration curl",
+      "equipo": "dumbbell",
+      "objetivo": "biceps",
+      "secundarios": [
+        "forearms"
+      ],
+      "pasos": [
+        "Siéntate en un banco con las piernas separadas y una mancuerna en una mano, apoyando el codo en la parte interna del muslo.",
+        "Extiende completamente el brazo y sujeta la mancuerna con un agarre supino.",
+        "Manteniendo el brazo superior quieto, exhala y flexiona el peso hacia el hombro mientras contraes el bíceps.",
+        "Continúa levantando la mancuerna hasta que el bíceps esté completamente contraído y la mancuerna esté a la altura del hombro.",
+        "Mantén la posición contraída durante una breve pausa mientras aprietas los bíceps.",
+        "Inhala y baja lentamente la mancuerna de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado, luego cambia de brazo."
+      ],
+      "gif": "videos/0297-gvsWLQw.gif",
+      "imagen": "images/0297-gvsWLQw.jpg"
+    },
+    "0313": {
+      "nombre": "dumbbell hammer curl",
+      "equipo": "dumbbell",
+      "objetivo": "biceps",
+      "secundarios": [
+        "forearms"
+      ],
+      "pasos": [
+        "Ponte de pie con una mancuerna en cada mano, con las palmas mirando hacia el torso.",
+        "Mantén los codos cerca del torso y gira las palmas de las manos hasta que queden mirando hacia adelante.",
+        "Esta será tu posición inicial.",
+        "Ahora, manteniendo los brazos superiores quietos, exhala y flexiona los brazos contrayendo los bíceps.",
+        "Continúa levantando las pesas hasta que los bíceps estén completamente contraídos y las mancuernas estén a la altura de los hombros.",
+        "Mantén la posición contraída durante una breve pausa mientras aprietas los bíceps.",
+        "Luego, inhala y comienza a bajar lentamente las mancuernas de vuelta a la posición inicial.",
+        "Repite el número de repeticiones recomendado."
+      ],
+      "gif": "videos/0313-slDvUAU.gif",
+      "imagen": "images/0313-slDvUAU.jpg"
+    },
+    "0314": {
+      "nombre": "dumbbell incline bench press",
+      "equipo": "dumbbell",
+      "objetivo": "pectorals",
+      "secundarios": [
+        "shoulders",
+        "triceps"
+      ],
+      "pasos": [
+        "Coloca un banco inclinado a un ángulo de 45 grados.",
+        "Siéntate en el banco con los pies apoyados en el suelo y la espalda firmemente apoyada contra el banco.",
+        "Sostén una mancuerna en cada mano, con las palmas hacia adelante, y levántalas hasta la altura de los hombros.",
+        "Baja lentamente las mancuernas hacia los lados del pecho, manteniendo los codos en un ángulo de 90 grados.",
+        "Empuja las mancuernas de nuevo hacia arriba hasta la posición inicial, extendiendo completamente los brazos.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0314-ns0SIbU.gif",
+      "imagen": "images/0314-ns0SIbU.jpg"
+    },
+    "0318": {
+      "nombre": "dumbbell incline curl",
+      "equipo": "dumbbell",
+      "objetivo": "biceps",
+      "secundarios": [
+        "forearms"
+      ],
+      "pasos": [
+        "Ajusta un banco inclinado a un ángulo de 45 grados y siéntate en él con una mancuerna en cada mano, con las palmas hacia adelante.",
+        "Apoya los brazos superiores en el banco inclinado y deja que los codos cuelguen hacia abajo, extendiendo completamente los brazos.",
+        "Manteniendo los brazos superiores fijos, exhala y levanta el peso mientras contraes los bíceps.",
+        "Continúa levantando las mancuernas hasta que los bíceps estén completamente contraídos y las mancuernas estén a la altura de los hombros.",
+        "Mantén la posición contraída durante una breve pausa mientras aprietas los bíceps.",
+        "Inhala y comienza a bajar lentamente las mancuernas de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0318-ae9UoXQ.gif",
+      "imagen": "images/0318-ae9UoXQ.jpg"
+    },
+    "0333": {
+      "nombre": "dumbbell kickback",
+      "equipo": "dumbbell",
+      "objetivo": "triceps",
+      "secundarios": [
+        "shoulders"
+      ],
+      "pasos": [
+        "Ponte de pie con los pies separados a la altura de los hombros y sostén una mancuerna en cada mano.",
+        "Flexiona ligeramente las rodillas e inclínate hacia adelante desde las caderas, manteniendo la espalda recta.",
+        "Acerca los brazos superiores a los costados, con los codos flexionados en un ángulo de 90 grados.",
+        "Extiende los brazos rectos hacia atrás, contrayendo los tríceps en la parte superior del movimiento.",
+        "Haz una pausa por un momento, luego baja lentamente las mancuernas de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0333-W6PxUkg.gif",
+      "imagen": "images/0333-W6PxUkg.jpg"
+    },
+    "0334": {
+      "nombre": "dumbbell lateral raise",
+      "equipo": "dumbbell",
+      "objetivo": "delts",
+      "secundarios": [
+        "traps"
+      ],
+      "pasos": [
+        "Ponte de pie con los pies separados a la altura de los hombros y sostén una mancuerna en cada mano, con las palmas hacia el cuerpo.",
+        "Mantén la espalda recta y activa el core.",
+        "Levanta los brazos hacia los lados hasta que queden paralelos al suelo, manteniendo una ligera flexión en los codos.",
+        "Haz una pausa por un momento en la parte superior, luego baja lentamente los brazos de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0334-DsgkuIt.gif",
+      "imagen": "images/0334-DsgkuIt.jpg"
+    },
+    "0405": {
+      "nombre": "dumbbell seated shoulder press",
+      "equipo": "dumbbell",
+      "objetivo": "delts",
+      "secundarios": [
+        "triceps",
+        "upper back"
+      ],
+      "pasos": [
+        "Siéntate en un banco con una mancuerna en cada mano, apoyadas en los muslos.",
+        "Sube las mancuernas hasta la altura de los hombros, con las palmas hacia adelante.",
+        "Presiona las mancuernas hacia arriba hasta que los brazos queden completamente extendidos por encima de la cabeza.",
+        "Haz una pausa por un momento en la parte superior, luego baja lentamente las mancuernas de vuelta a la altura de los hombros.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0405-znQUdHY.gif",
+      "imagen": "images/0405-znQUdHY.jpg"
+    },
+    "0410": {
+      "nombre": "dumbbell single leg split squat",
+      "equipo": "dumbbell",
+      "objetivo": "quads",
+      "secundarios": [
+        "glutes",
+        "hamstrings",
+        "calves"
+      ],
+      "pasos": [
+        "Ponte de pie con los pies separados a la altura de los hombros, sujetando una mancuerna en cada mano.",
+        "Da un paso hacia adelante con un pie y coloca los pies de modo que el pie delantero quede plano en el suelo y el pie trasero quede elevado sobre un banco o escalón.",
+        "Baja el cuerpo flexionando la rodilla y la cadera delanteras, manteniendo la rodilla trasera ligeramente flexionada y el talón trasero levantado del suelo.",
+        "Continúa bajando hasta que el muslo delantero quede paralelo al suelo, luego empuja con el talón delantero para volver a la posición inicial.",
+        "Repite el número de repeticiones deseado y luego cambia de pierna y repite."
+      ],
+      "gif": "videos/0410-qx4fgX7.gif",
+      "imagen": "images/0410-qx4fgX7.jpg"
+    },
+    "0431": {
+      "nombre": "dumbbell step-up",
+      "equipo": "dumbbell",
+      "objetivo": "glutes",
+      "secundarios": [
+        "quadriceps",
+        "hamstrings",
+        "calves"
+      ],
+      "pasos": [
+        "Ponte de pie frente a un banco o escalón con una mancuerna en cada mano, con las palmas hacia tu cuerpo.",
+        "Coloca el pie derecho sobre el banco o escalón, asegurándote de que todo el pie esté en contacto con la superficie.",
+        "Empuja con el talón derecho y sube el cuerpo sobre el banco o escalón, enderezando la pierna derecha.",
+        "Sube el pie izquierdo hasta el banco o escalón, quedando completamente erguido.",
+        "Baja con el pie izquierdo, seguido del pie derecho, volviendo a la posición inicial.",
+        "Repite el número de repeticiones deseado, luego cambia de pierna."
+      ],
+      "gif": "videos/0431-aXtJhlg.gif",
+      "imagen": "images/0431-aXtJhlg.jpg"
+    },
+    "0447": {
+      "nombre": "ez barbell curl",
+      "equipo": "ez barbell",
+      "objetivo": "biceps",
+      "secundarios": [
+        "forearms"
+      ],
+      "pasos": [
+        "Ponte de pie con los pies separados a la altura de los hombros y sostén la barra EZ con agarre supino, palmas hacia arriba.",
+        "Mantén los codos cerca del torso y los brazos superiores quietos durante todo el movimiento.",
+        "Exhala mientras subes la barra hacia los hombros, contrayendo los bíceps.",
+        "Haz una pausa breve en la parte más alta, luego inhala mientras bajas lentamente la barra de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0447-6TG6x2w.gif",
+      "imagen": "images/0447-6TG6x2w.jpg"
+    },
+    "0585": {
+      "nombre": "lever leg extension",
+      "equipo": "leverage machine",
+      "objetivo": "quads",
+      "secundarios": [
+        "hamstrings"
+      ],
+      "pasos": [
+        "Ajusta la altura del asiento y el respaldo de la máquina a tu cuerpo.",
+        "Siéntate en la máquina con la espalda apoyada en el respaldo y los pies sobre la almohadilla para los pies.",
+        "Sujeta las asas o las barras laterales para mayor estabilidad.",
+        "Extiende las piernas hacia adelante enderezando las rodillas, levantando el peso.",
+        "Haz una pausa breve en lo alto, luego baja lentamente el peso de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0585-my33uHU.gif",
+      "imagen": "images/0585-my33uHU.jpg"
+    },
+    "0586": {
+      "nombre": "lever lying leg curl",
+      "equipo": "leverage machine",
+      "objetivo": "hamstrings",
+      "secundarios": [
+        "calves"
+      ],
+      "pasos": [
+        "Ajusta la máquina a tu cuerpo y selecciona el peso deseado.",
+        "Túmbate boca abajo en la máquina con las piernas rectas y los talones contra la palanca acolchada.",
+        "Sujeta las asas o los lados de la máquina para mayor estabilidad.",
+        "Manteniendo la parte superior del cuerpo inmóvil, exhala y flexiona las piernas hacia arriba tanto como sea posible sin levantar las caderas de la almohadilla.",
+        "Mantén la posición contraída durante una pausa breve mientras aprietas los isquiotibiales.",
+        "Inhala y baja lentamente la palanca de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0586-17lJ1kr.gif",
+      "imagen": "images/0586-17lJ1kr.jpg"
+    },
+    "0594": {
+      "nombre": "lever seated calf raise",
+      "equipo": "leverage machine",
+      "objetivo": "calves",
+      "secundarios": [
+        "soleus",
+        "ankle stabilizers"
+      ],
+      "pasos": [
+        "Ajusta la altura del asiento de modo que las rodillas queden ligeramente flexionadas y los pies queden planos sobre la placa para los pies.",
+        "Coloca los dedos de los pies sobre la placa para los pies, con los talones colgando fuera del borde.",
+        "Sujeta las asas o los lados del asiento para mayor estabilidad.",
+        "Empuja con la parte delantera de los pies para elevar los talones tan alto como sea posible.",
+        "Haz una pausa breve en la parte alta y luego baja lentamente los talones de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0594-bOOdeyc.gif",
+      "imagen": "images/0594-bOOdeyc.jpg"
+    },
+    "0596": {
+      "nombre": "lever seated fly",
+      "equipo": "leverage machine",
+      "objetivo": "pectorals",
+      "secundarios": [
+        "deltoids",
+        "trapezius"
+      ],
+      "pasos": [
+        "Ajusta la altura del asiento y colócate en la máquina con la espalda apoyada en la almohadilla.",
+        "Agarra las asas con un agarre pronado y mantén los codos ligeramente flexionados.",
+        "Exhala y empuja las asas hacia adelante, juntándolas frente a tu pecho.",
+        "Haz una pausa por un momento, contrayendo los músculos del pecho.",
+        "Inhala y vuelve lentamente a la posición inicial, permitiendo que los músculos del pecho se estiren.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0596-v3xmPAR.gif",
+      "imagen": "images/0596-v3xmPAR.jpg"
+    },
+    "0597": {
+      "nombre": "lever seated hip abduction",
+      "equipo": "leverage machine",
+      "objetivo": "abductors",
+      "secundarios": [
+        "glutes",
+        "hamstrings"
+      ],
+      "pasos": [
+        "Ajusta la altura del asiento de modo que tus rodillas formen un ángulo de 90 grados.",
+        "Siéntate en la máquina con la espalda apoyada en el respaldo y los pies sobre los apoyapiés.",
+        "Coloca las manos en las asas laterales para mayor estabilidad.",
+        "Activa los abductores y empuja lentamente las piernas hacia afuera, alejándolas de la línea media del cuerpo.",
+        "Haz una pausa al final del movimiento y luego junta lentamente las piernas de nuevo hasta la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0597-CHpahtl.gif",
+      "imagen": "images/0597-CHpahtl.jpg"
+    },
+    "0605": {
+      "nombre": "lever standing calf raise",
+      "equipo": "leverage machine",
+      "objetivo": "calves",
+      "secundarios": [
+        "soleus",
+        "ankle stabilizers"
+      ],
+      "pasos": [
+        "Ajusta la máquina a tu altura y ponte de pie con los pies separados a la altura de los hombros.",
+        "Coloca los hombros debajo de las almohadillas y sujétate de las asas para mayor estabilidad.",
+        "Eleva los talones tan alto como puedas extendiendo los tobillos.",
+        "Haz una pausa breve en la parte alta y luego baja lentamente los talones de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0605-ykUOVze.gif",
+      "imagen": "images/0605-ykUOVze.jpg"
+    },
+    "0743": {
+      "nombre": "sled hack squat",
+      "equipo": "sled machine",
+      "objetivo": "glutes",
+      "secundarios": [
+        "quadriceps",
+        "hamstrings",
+        "calves"
+      ],
+      "pasos": [
+        "Ajusta la máquina de trineo a una posición cómoda según tu altura.",
+        "Ponte de pie con los pies separados a la altura de los hombros sobre la plataforma, con los dedos de los pies ligeramente apuntando hacia fuera.",
+        "Sujétate de las asas o barras para mayor estabilidad.",
+        "Baja el cuerpo doblando las rodillas y las caderas, manteniendo la espalda recta y el pecho elevado.",
+        "Continúa bajando hasta que los muslos queden paralelos al suelo o un poco por debajo.",
+        "Haz una pausa por un momento, luego empuja con los talones para subir el cuerpo de nuevo a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0743-Qa55kX1.gif",
+      "imagen": "images/0743-Qa55kX1.jpg"
+    },
+    "0861": {
+      "nombre": "cable seated row",
+      "equipo": "cable",
+      "objetivo": "upper back",
+      "secundarios": [
+        "biceps",
+        "forearms"
+      ],
+      "pasos": [
+        "Siéntate en la máquina de remo con cable con los pies planos sobre los apoyapiés y las rodillas ligeramente flexionadas.",
+        "Sujeta las agarraderas con un agarre prono, manteniendo la espalda recta y los hombros relajados.",
+        "Jala las agarraderas hacia el cuerpo, apretando los omóplatos entre sí.",
+        "Haz una pausa por un momento en el punto máximo del movimiento, luego suelta lentamente las agarraderas de vuelta a la posición inicial.",
+        "Repite el número de repeticiones deseado."
+      ],
+      "gif": "videos/0861-fUBheHs.gif",
+      "imagen": "images/0861-fUBheHs.jpg"
+    }
+  }
+}

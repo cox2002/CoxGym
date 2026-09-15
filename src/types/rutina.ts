@@ -15,6 +15,22 @@ export type DiaSemana =
 
 export type TipoDia = "entrenamiento" | "descanso";
 
+/** Zonas del mapa corporal. Coinciden con el componente MapaCuerpo. */
+export type Musculo =
+  | "pecho"
+  | "hombro"
+  | "hombroPost"
+  | "biceps"
+  | "triceps"
+  | "espalda"
+  | "trapecio"
+  | "core"
+  | "gluteo"
+  | "isquios"
+  | "cuadriceps"
+  | "gemelo"
+  | "antebrazo";
+
 export interface Ejercicio {
   id: string;
   nombre: string;
@@ -27,6 +43,10 @@ export interface Ejercicio {
   /** Ejercicio de reemplazo si la máquina está ocupada. Puede ir vacío. */
   alternativa: string;
   notas: string;
+  /** Músculos trabajados; el primero es el principal. */
+  musculos: Musculo[];
+  /** Id de 4 dígitos en el dataset de ejercicios. Vacío si no tiene animación. */
+  animacion: string;
 }
 
 export interface DiaRutina {

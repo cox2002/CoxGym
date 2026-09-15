@@ -2,28 +2,26 @@ import type { DiaRutina } from "@/types/rutina";
 
 interface Props {
   dia: DiaRutina;
-  /** Texto pequeño arriba del título: "Hoy", la fecha, etc. */
-  sobretitulo?: string;
+  /** Texto pequeño en cian arriba del título: "Hoy · 15 de setiembre", "Martes"... */
+  sobretitulo: string;
 }
 
 export default function EncabezadoDia({ dia, sobretitulo }: Props) {
   return (
-    <header className="px-4 pt-6 pb-4">
-      {sobretitulo && (
-        <p className="text-sm font-semibold uppercase tracking-wide text-acento">
-          {sobretitulo}
-        </p>
-      )}
-
-      <h1 className="mt-1 text-3xl font-bold leading-tight">{dia.nombreDia}</h1>
-      <p className="mt-1 text-xl text-tenue">{dia.titulo}</p>
+    <header>
+      <p className="min-h-4 text-[11px] font-bold tracking-[1.6px] text-acento uppercase">
+        {sobretitulo}
+      </p>
+      <h1 className="mt-2 text-[30px] leading-[1.1] font-extrabold tracking-[-0.6px] text-pretty">
+        {dia.titulo}
+      </h1>
 
       {dia.gruposMusculares.length > 0 && (
-        <ul className="mt-3 flex flex-wrap gap-2">
+        <ul className="mt-3 flex flex-wrap gap-1.5">
           {dia.gruposMusculares.map((grupo) => (
             <li
               key={grupo}
-              className="rounded-full bg-superficie-alta px-3 py-1 text-sm text-tenue"
+              className="rounded-full border border-borde-alto bg-superficie-alta px-[11px] py-[5px] text-[11.5px] font-semibold text-[#96a3b1]"
             >
               {grupo}
             </li>

@@ -1,23 +1,78 @@
 @import "tailwindcss";
 
-/* Paleta oscura fija: la app se ve igual siempre, sin depender del tema del
-   celular. Un solo acento (cian) y un color de aviso (ámbar) para las notas. */
+/* Paleta del diseño de Claude Design: casi negro, un solo acento cian.
+   Fija: la app se ve igual siempre, sin depender del tema del celular. */
 @theme {
   --color-fondo: #0a0d11;
-  --color-superficie: #141a21;
-  --color-superficie-alta: #1c242e;
-  --color-borde: #27313d;
-  --color-texto: #f3f6f9;
-  --color-tenue: #93a1b1;
-  --color-acento: #38bdf8;
-  --color-acento-tenue: #0d2b3d;
-  --color-aviso: #fbbf24;
-  --color-aviso-tenue: #2e2411;
-  --color-descanso: #a78bfa;
-  --color-descanso-tenue: #241d3b;
+  --color-superficie: #0f1418;
+  --color-superficie-alta: #141a20;
+  --color-campo: #12171d;
+  --color-borde: #1b222a;
+  --color-borde-alto: #1f272f;
+  --color-control: #2a333d;
 
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  --color-texto: #f2f5f8;
+  --color-suave: #c3ccd5;
+  --color-tenue: #8b98a6;
+  --color-apagado: #75818e;
+
+  --color-acento: #38bdf8;
+  --color-acento-claro: #7dd3fc;
+  --color-acento-fondo: #0f2431;
+  --color-acento-borde: #17394c;
+  --color-sobre-acento: #04121a;
+
+  /* Gráficos: el acento marca lo actual; lo demás en un gris con 3:1 de contraste. */
+  --color-grafico-base: #56687a;
+  --color-grafico-rejilla: #1b222a;
+
+  --color-peligro: #f87171;
+
+  /* backwards: al terminar no deja transform, que atraparía a los position: fixed de dentro. */
+  --animate-entra: entra 0.35s ease backwards;
+  --animate-sello: sello 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-latido: latido 1.6s ease-in-out infinite;
+
+  @keyframes entra {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes sello {
+    0% {
+      opacity: 0;
+      transform: scale(0.7);
+    }
+    40% {
+      opacity: 1;
+      transform: scale(1.04);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes latido {
+    0%,
+    100% {
+      opacity: 0.55;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+}
+
+@theme inline {
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 html {
@@ -30,6 +85,7 @@ body {
   background-color: var(--color-fondo);
   color: var(--color-texto);
   font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
   /* Sin rebote horizontal en móvil. */
   overscroll-behavior-y: none;
   /* En el gimnasio se toca la pantalla con el dedo y todo quedaba sombreado.
@@ -40,4 +96,28 @@ body {
   -webkit-tap-highlight-color: transparent;
   /* Sin menú de "copiar" al mantener presionado (iOS). */
   -webkit-touch-callout: none;
+}
+
+/* Los campos sí necesitan selección: en iOS, heredarla desactivada impide escribir. */
+input,
+textarea {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* Sin flechas en los campos numéricos. */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

@@ -1,6 +1,15 @@
 import type { Metadata, Viewport } from "next";
+import { Manrope } from "next/font/google";
+import Arranque from "@/components/Arranque";
 import NavInferior from "@/components/NavInferior";
+import TemporizadorDescanso from "@/components/TemporizadorDescanso";
 import "./globals.css";
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  variable: "--font-manrope",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "CoxGym",
@@ -27,10 +36,14 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="es">
+    <html lang="es" className={manrope.variable}>
       <body className="min-h-dvh">
-        {/* pb-24 deja aire para que la nav fija no tape el último ejercicio. */}
-        <main className="mx-auto max-w-md pb-24">{children}</main>
+        <Arranque />
+        {/* pb-32 deja aire para la nav fija y el temporizador de descanso. */}
+        <main className="mx-auto max-w-md pt-[env(safe-area-inset-top)] pb-32">
+          {children}
+        </main>
+        <TemporizadorDescanso />
         <NavInferior />
       </body>
     </html>

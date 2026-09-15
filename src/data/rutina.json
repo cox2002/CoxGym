@@ -27,7 +27,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "Hip thrust con barra y banco",
-          "notas": "Espalda apoyada en el respaldo, cinturón sobre la cadera. Extender bien la cadera arriba y apretar el glúteo en el punto alto."
+          "notas": "Espalda apoyada en el respaldo, cinturón sobre la cadera. Extender bien la cadera arriba y apretar el glúteo en el punto alto.",
+          "musculos": ["gluteo", "isquios"],
+          "animacion": "1409"
         },
         {
           "id": "peso-muerto-rumano",
@@ -37,7 +39,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Rodillas semi-flexionadas fijas. Empujar la cadera atrás con el peso pegado a las piernas hasta sentir estiramiento en isquios."
+          "notas": "Rodillas semi-flexionadas fijas. Empujar la cadera atrás con el peso pegado a las piernas hasta sentir estiramiento en isquios.",
+          "musculos": ["isquios", "gluteo"],
+          "animacion": "0085"
         },
         {
           "id": "sentadilla-bulgara",
@@ -47,7 +51,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Por pierna. Pie trasero en el banco, bajar hasta ~90° en la rodilla delantera. El peso recae en la pierna de adelante."
+          "notas": "Por pierna. Pie trasero en el banco, bajar hasta ~90° en la rodilla delantera. El peso recae en la pierna de adelante.",
+          "musculos": ["cuadriceps", "gluteo"],
+          "animacion": "0410"
         },
         {
           "id": "zancadas-caminando",
@@ -57,7 +63,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Por pierna. Paso largo, rodilla trasera casi al piso, empujar con el talón delantero para avanzar."
+          "notas": "Por pierna. Paso largo, rodilla trasera casi al piso, empujar con el talón delantero para avanzar.",
+          "musculos": ["cuadriceps", "gluteo"],
+          "animacion": "1460"
         },
         {
           "id": "abduccion-cadera-maquina",
@@ -67,7 +75,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "Abducción con banda de pie",
-          "notas": "Espalda apoyada. Separar contra la resistencia y controlar la vuelta sin dejar que cierre de golpe."
+          "notas": "Espalda apoyada. Separar contra la resistencia y controlar la vuelta sin dejar que cierre de golpe.",
+          "musculos": ["gluteo"],
+          "animacion": "0597"
         },
         {
           "id": "curl-femoral",
@@ -77,7 +87,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "Peso muerto rumano ligero",
-          "notas": "Cadera fija contra el cojín. Talón hacia el glúteo, controlar la bajada."
+          "notas": "Cadera fija contra el cojín. Talón hacia el glúteo, controlar la bajada.",
+          "musculos": ["isquios"],
+          "animacion": "0586"
         },
         {
           "id": "gemelos-de-pie",
@@ -87,7 +99,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Extender el tobillo al máximo arriba, bajar hasta estiramiento completo."
+          "notas": "Extender el tobillo al máximo arriba, bajar hasta estiramiento completo.",
+          "musculos": ["gemelo"],
+          "animacion": "0605"
         }
       ],
       "cardio": "",
@@ -108,7 +122,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Escápulas retraídas y pegadas al banco. Barra roza el pecho a la altura de las tetillas, glúteos sin despegar. Agarre ~1.5× el ancho de hombros: al bajar, los antebrazos deben quedar verticales."
+          "notas": "Escápulas retraídas y pegadas al banco. Barra roza el pecho a la altura de las tetillas, glúteos sin despegar. Agarre ~1.5× el ancho de hombros: al bajar, los antebrazos deben quedar verticales.",
+          "musculos": ["pecho", "triceps", "hombro"],
+          "animacion": "0025"
         },
         {
           "id": "press-militar-mancuerna",
@@ -118,7 +134,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Mancuernas a la altura de los hombros. Empujar en línea recta sin arquear la espalda baja."
+          "notas": "Mancuernas a la altura de los hombros. Empujar en línea recta sin arquear la espalda baja.",
+          "musculos": ["hombro", "triceps"],
+          "animacion": "0405"
         },
         {
           "id": "press-inclinado-mancuerna",
@@ -128,7 +146,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Banco a 30-45°. Bajar a los lados del pecho alto, empujar en diagonal sin chocar las mancuernas."
+          "notas": "Banco a 30-45°. Bajar a los lados del pecho alto, empujar en diagonal sin chocar las mancuernas.",
+          "musculos": ["pecho", "hombro"],
+          "animacion": "0314"
         },
         {
           "id": "elevaciones-laterales-mancuerna",
@@ -138,7 +158,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Codos con leve flexión. Subir hasta la altura del hombro, no más. Sin impulso."
+          "notas": "Codos con leve flexión. Subir hasta la altura del hombro, no más. Sin impulso.",
+          "musculos": ["hombro"],
+          "animacion": "0334"
         },
         {
           "id": "fondos-paralelas",
@@ -148,7 +170,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Inclinado adelante = más pecho, vertical = más tríceps. Bajar hasta sentir estiramiento en el hombro."
+          "notas": "Inclinado adelante = más pecho, vertical = más tríceps. Bajar hasta sentir estiramiento en el hombro.",
+          "musculos": ["pecho", "triceps"],
+          "animacion": "0251"
         },
         {
           "id": "extension-triceps-polea",
@@ -158,7 +182,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Codos pegados al cuerpo sin moverlos. Abrir al final, subir controlado."
+          "notas": "Codos pegados al cuerpo sin moverlos. Abrir al final, subir controlado.",
+          "musculos": ["triceps"],
+          "animacion": "0201"
         }
       ],
       "cardio": "",
@@ -179,7 +205,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "Dominadas asistidas",
-          "notas": "Torso ligeramente inclinado atrás. Barra a la parte alta del pecho llevando los codos abajo."
+          "notas": "Torso ligeramente inclinado atrás. Barra a la parte alta del pecho llevando los codos abajo.",
+          "musculos": ["espalda", "biceps"],
+          "animacion": "2330"
         },
         {
           "id": "remo-con-barra",
@@ -189,7 +217,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "Remo con mancuerna a una mano",
-          "notas": "Torso casi paralelo al piso, espalda recta. Barra al abdomen apretando los omóplatos."
+          "notas": "Torso casi paralelo al piso, espalda recta. Barra al abdomen apretando los omóplatos.",
+          "musculos": ["espalda", "biceps"],
+          "animacion": "0027"
         },
         {
           "id": "remo-polea-baja",
@@ -199,7 +229,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Rodillas semi-flexionadas, espalda recta y fija. Tirar el agarre al abdomen apretando la espalda al final."
+          "notas": "Rodillas semi-flexionadas, espalda recta y fija. Tirar el agarre al abdomen apretando la espalda al final.",
+          "musculos": ["espalda"],
+          "animacion": "0861"
         },
         {
           "id": "face-pull",
@@ -209,7 +241,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Polea a la altura de la cara. Separar las manos con los codos altos. Peso ligero: es de técnica, no de carga."
+          "notas": "Polea a la altura de la cara. Separar las manos con los codos altos. Peso ligero: es de técnica, no de carga.",
+          "musculos": ["hombroPost", "trapecio"],
+          "animacion": "0203"
         },
         {
           "id": "curl-con-barra",
@@ -219,7 +253,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Codos pegados al cuerpo sin moverlos. Contraer arriba, bajar controlado."
+          "notas": "Codos pegados al cuerpo sin moverlos. Contraer arriba, bajar controlado.",
+          "musculos": ["biceps"],
+          "animacion": "0031"
         },
         {
           "id": "curl-martillo",
@@ -229,7 +265,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Palma hacia adentro durante todo el movimiento, sin girar la muñeca. Trabaja también antebrazo."
+          "notas": "Palma hacia adentro durante todo el movimiento, sin girar la muñeca. Trabaja también antebrazo.",
+          "musculos": ["biceps", "antebrazo"],
+          "animacion": "0313"
         }
       ],
       "cardio": "",
@@ -250,7 +288,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "Prensa de piernas",
-          "notas": "Espalda y hombros firmes contra el respaldo. Bajar a ~90°, empujar con el talón sin despegarlo."
+          "notas": "Espalda y hombros firmes contra el respaldo. Bajar a ~90°, empujar con el talón sin despegarlo.",
+          "musculos": ["cuadriceps", "gluteo"],
+          "animacion": "0743"
         },
         {
           "id": "prensa-de-piernas",
@@ -260,7 +300,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "Hack squat",
-          "notas": "Pies altos y separados para más énfasis en glúteo. No cerrar rodillas hacia adentro ni bloquear arriba."
+          "notas": "Pies altos y separados para más énfasis en glúteo. No cerrar rodillas hacia adentro ni bloquear arriba.",
+          "musculos": ["cuadriceps", "gluteo"],
+          "animacion": "1463"
         },
         {
           "id": "step-ups-mancuernas",
@@ -270,7 +312,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Por pierna. Subir empujando con el talón de la pierna que está sobre el banco, no con la de apoyo en el piso."
+          "notas": "Por pierna. Subir empujando con el talón de la pierna que está sobre el banco, no con la de apoyo en el piso.",
+          "musculos": ["cuadriceps", "gluteo"],
+          "animacion": "0431"
         },
         {
           "id": "hip-thrust-una-pierna",
@@ -280,7 +324,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Una pierna en el piso hace todo el trabajo, la otra estirada al aire. Apretar fuerte el glúteo arriba antes de bajar."
+          "notas": "Una pierna en el piso hace todo el trabajo, la otra estirada al aire. Apretar fuerte el glúteo arriba antes de bajar.",
+          "musculos": ["gluteo"],
+          "animacion": "3645"
         },
         {
           "id": "extension-cuadriceps",
@@ -290,7 +336,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Rodillas alineadas con el eje de la máquina. Extender sin bloquear, bajar controlado."
+          "notas": "Rodillas alineadas con el eje de la máquina. Extender sin bloquear, bajar controlado.",
+          "musculos": ["cuadriceps"],
+          "animacion": "0585"
         },
         {
           "id": "curl-femoral",
@@ -300,7 +348,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "Peso muerto rumano ligero",
-          "notas": "Cadera fija contra el cojín. Talón hacia el glúteo, controlar la bajada."
+          "notas": "Cadera fija contra el cojín. Talón hacia el glúteo, controlar la bajada.",
+          "musculos": ["isquios"],
+          "animacion": "0586"
         },
         {
           "id": "gemelos-sentado",
@@ -310,7 +360,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Rodillas a 90° con el cojín encima. Extender el tobillo al máximo arriba. Sentado carga más el sóleo."
+          "notas": "Rodillas a 90° con el cojín encima. Extender el tobillo al máximo arriba. Sentado carga más el sóleo.",
+          "musculos": ["gemelo"],
+          "animacion": "0594"
         }
       ],
       "cardio": "",
@@ -331,7 +383,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Banco a 30-45°. Bajar a la parte alta del pecho, empujar sin despegar los glúteos del banco."
+          "notas": "Banco a 30-45°. Bajar a la parte alta del pecho, empujar sin despegar los glúteos del banco.",
+          "musculos": ["pecho", "hombro"],
+          "animacion": "0047"
         },
         {
           "id": "press-militar-barra",
@@ -341,7 +395,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Barra a la altura de la clavícula. Empujar en línea recta sin arquear la espalda baja."
+          "notas": "Barra a la altura de la clavícula. Empujar en línea recta sin arquear la espalda baja.",
+          "musculos": ["hombro", "triceps"],
+          "animacion": "1456"
         },
         {
           "id": "aperturas-pec-deck",
@@ -351,7 +407,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "Aperturas con mancuernas",
-          "notas": "Codos con leve flexión fija. Juntar apretando el pecho, controlar la apertura."
+          "notas": "Codos con leve flexión fija. Juntar apretando el pecho, controlar la apertura.",
+          "musculos": ["pecho"],
+          "animacion": "0596"
         },
         {
           "id": "elevaciones-laterales-polea",
@@ -361,7 +419,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Polea baja a un costado. Subir hasta la altura del hombro con leve flexión de codo, sin impulso. La polea da tensión constante desde el inicio."
+          "notas": "Polea baja a un costado. Subir hasta la altura del hombro con leve flexión de codo, sin impulso. La polea da tensión constante desde el inicio.",
+          "musculos": ["hombro"],
+          "animacion": "0192"
         },
         {
           "id": "press-frances-mancuerna",
@@ -371,7 +431,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Bajar la mancuerna detrás de la cabeza flexionando solo el codo. El brazo se queda fijo."
+          "notas": "Bajar la mancuerna detrás de la cabeza flexionando solo el codo. El brazo se queda fijo.",
+          "musculos": ["triceps"],
+          "animacion": "2188"
         },
         {
           "id": "extension-triceps-cuerda",
@@ -381,7 +443,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Codos pegados al cuerpo sin moverlos. Abrir la cuerda al final, subir controlado."
+          "notas": "Codos pegados al cuerpo sin moverlos. Abrir la cuerda al final, subir controlado.",
+          "musculos": ["triceps"],
+          "animacion": "0200"
         },
         {
           "id": "patada-triceps-mancuerna",
@@ -391,7 +455,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Torso inclinado, codo fijo a 90° pegado al costado. Extender el antebrazo hacia atrás y apretar arriba. Añadido para reforzar el volumen de brazo."
+          "notas": "Torso inclinado, codo fijo a 90° pegado al costado. Extender el antebrazo hacia atrás y apretar arriba. Añadido para reforzar el volumen de brazo.",
+          "musculos": ["triceps"],
+          "animacion": "0333"
         }
       ],
       "cardio": "",
@@ -412,7 +478,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Barra pegada a las espinillas al iniciar. Espalda recta. Empujar el piso con los pies y extender cadera y rodillas a la vez."
+          "notas": "Barra pegada a las espinillas al iniciar. Espalda recta. Empujar el piso con los pies y extender cadera y rodillas a la vez.",
+          "musculos": ["espalda", "gluteo", "isquios"],
+          "animacion": "0032"
         },
         {
           "id": "jalon-al-pecho-agarre-cerrado",
@@ -422,7 +490,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "Jalón agarre neutro",
-          "notas": "Torso ligeramente inclinado atrás. Barra a la parte alta del pecho llevando los codos abajo."
+          "notas": "Torso ligeramente inclinado atrás. Barra a la parte alta del pecho llevando los codos abajo.",
+          "musculos": ["espalda", "biceps"],
+          "animacion": "2616"
         },
         {
           "id": "remo-en-maquina",
@@ -432,7 +502,9 @@
           "descansoSeg": 90,
           "pesoSugerido": "",
           "alternativa": "Remo con barra",
-          "notas": "Máquina Hammer Strength. Pecho apoyado en el cojín, codos detrás del torso, apretar la espalda al final."
+          "notas": "Máquina Hammer Strength. Pecho apoyado en el cojín, codos detrás del torso, apretar la espalda al final.",
+          "musculos": ["espalda"],
+          "animacion": "1350"
         },
         {
           "id": "face-pull",
@@ -442,7 +514,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "Pájaros con mancuernas",
-          "notas": "Polea a la altura de la cara. Separar las manos con los codos altos. Peso ligero y controlado."
+          "notas": "Polea a la altura de la cara. Separar las manos con los codos altos. Peso ligero y controlado.",
+          "musculos": ["hombroPost", "trapecio"],
+          "animacion": "0203"
         },
         {
           "id": "curl-inclinado-mancuernas",
@@ -452,7 +526,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Brazos colgando desde el hombro sin adelantar el codo. Estira más el bíceps que el curl de pie."
+          "notas": "Brazos colgando desde el hombro sin adelantar el codo. Estira más el bíceps que el curl de pie.",
+          "musculos": ["biceps"],
+          "animacion": "0318"
         },
         {
           "id": "curl-concentrado",
@@ -462,7 +538,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Codo apoyado en la cara interna del muslo. Subir solo con el bíceps, sin balancear el cuerpo."
+          "notas": "Codo apoyado en la cara interna del muslo. Subir solo con el bíceps, sin balancear el cuerpo.",
+          "musculos": ["biceps"],
+          "animacion": "0297"
         },
         {
           "id": "curl-barra-z-21s",
@@ -472,7 +550,9 @@
           "descansoSeg": 60,
           "pesoSugerido": "",
           "alternativa": "",
-          "notas": "Serie única al fallo. 7 repeticiones parciales de abajo a la mitad + 7 parciales de la mitad a arriba + 7 completas, sin soltar la barra. Peso más ligero que el curl normal. Finisher añadido para reforzar el volumen de brazo."
+          "notas": "Serie única al fallo. 7 repeticiones parciales de abajo a la mitad + 7 parciales de la mitad a arriba + 7 completas, sin soltar la barra. Peso más ligero que el curl normal. Finisher añadido para reforzar el volumen de brazo.",
+          "musculos": ["biceps", "antebrazo"],
+          "animacion": "0447"
         }
       ],
       "cardio": "",

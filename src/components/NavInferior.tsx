@@ -2,73 +2,62 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useHoy } from "@/lib/hoy";
 
-const OPCIONES = [
-  { href: "/", etiqueta: "Hoy" },
-  { href: "/semana", etiqueta: "Semana" },
-] as const;
+type Seccion = "hoy" | "semana" | "progreso";
 
-function estaActiva(href: string, ruta: string): boolean {
-  if (href === "/") return ruta === "/";
-  // El detalle de un día (/dia/lunes) cuelga de la sección Semana.
-  return ruta.startsWith("/semana") || ruta.startsWith("/dia");
-}
+const OPCIONES: { seccion: Seccion; href: "/" | "/semana" | "/progreso"; etiqueta: string; icono: string }[] = [
+  { seccion: "hoy", href: "/", etiqueta: "Hoy", icono: "M4 9v6M8 6v12M16 6v12M20 9v6M8 12h8" },
+  {
+    seccion: "semana",
+    href: "/semana",
+    etiqueta: "Semana",
+    icono: "M5 5h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2ZM3 10h18M8 3v4M16 3v4",
+  },
+  { seccion: "progreso", href: "/progreso", etiqueta: "Progreso", icono: "M4 19V6M4 19h16M8 19v-6M13 19V9M18 19v-4" },
+];
 
-function IconoHoy({ activo }: { activo: boolean }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={activo ? 2.4 : 1.8}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="size-6"
-      aria-hidden="true"
-    >
-      <path d="M4 9v6M8 6v12M16 6v12M20 9v6M8 12h8" />
-    </svg>
-  );
-}
-
-function IconoSemana({ activo }: { activo: boolean }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={activo ? 2.4 : 1.8}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="size-6"
-      aria-hidden="true"
-    >
-      <rect x="3" y="5" width="18" height="16" rx="2" />
-      <path d="M3 10h18M8 3v4M16 3v4" />
-    </svg>
-  );
+function seccionActiva(ruta: string, diaDeHoy: string | undefined): Seccion {
+  if (ruta.startsWith("/progreso") || ruta.startsWith("/cuenta")) return "progreso";
+  if (ruta.startsWith("/semana")) return "semana";
+  if (ruta.startsWith("/dia/")) {
+    // Un ejercicio de la sesión de hoy sigue siendo "Hoy".
+    return diaDeHoy && ruta.startsWith(`/dia/${diaDeHoy}`) ? "hoy" : "semana";
+  }
+  return "hoy";
 }
 
 export default function NavInferior() {
   const ruta = usePathname();
+  const hoy = useHoy();
+  const activa = seccionActiva(ruta, hoy?.dia);
 
   return (
-    <nav className="fixed inset-x-0 bottom-0 z-10 border-t border-borde bg-superficie/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">
-      <ul className="mx-auto flex max-w-md">
+    <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-[#161d24] bg-fondo pb-[env(safe-area-inset-bottom)] shadow-[0_-18px_22px_8px_#0a0d11]">
+      <ul className="mx-auto grid max-w-md grid-cols-3 px-6">
         {OPCIONES.map((opcion) => {
-          const activo = estaActiva(opcion.href, ruta);
-          const Icono = opcion.href === "/" ? IconoHoy : IconoSemana;
-
+          const activo = opcion.seccion === activa;
           return (
-            <li key={opcion.href} className="flex-1">
+            <li key={opcion.href}>
               <Link
                 href={opcion.href}
                 aria-current={activo ? "page" : undefined}
-                className={`flex flex-col items-center gap-1 py-3 text-sm font-semibold transition-colors ${
-                  activo ? "text-acento" : "text-tenue"
+                className={`flex flex-col items-center gap-1.5 pt-3 pb-2.5 text-[11px] font-bold tracking-wide transition-colors ${
+                  activo ? "text-acento" : "text-apagado"
                 }`}
               >
-                <Icono activo={activo} />
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={1.9}
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="size-[22px]"
+                  aria-hidden="true"
+                >
+                  <path d={opcion.icono} />
+                </svg>
                 {opcion.etiqueta}
               </Link>
             </li>

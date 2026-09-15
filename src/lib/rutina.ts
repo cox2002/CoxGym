@@ -1,5 +1,5 @@
 import datos from "@/data/rutina.json";
-import type { DiaRutina, DiaSemana, Rutina } from "@/types/rutina";
+import type { DiaRutina, DiaSemana, Ejercicio, Rutina } from "@/types/rutina";
 
 /**
  * Única puerta de entrada a los datos de la rutina.
@@ -51,6 +51,28 @@ export function esDiaSemana(valor: string): valor is DiaSemana {
 }
 
 /**
+ * Un ejercicio por su id. Los ids solo son únicos dentro del día, pero un
+ * mismo id en dos días es el mismo movimiento (comparten historial).
+ */
+export function getEjercicioPorId(id: string): Ejercicio | undefined {
+  for (const dia of rutina.semana) {
+    const ejercicio = dia.ejercicios.find((e) => e.id === id);
+    if (ejercicio) return ejercicio;
+  }
+  return undefined;
+}
+
+/** Total de series planificadas en el día. */
+export function contarSeries(dia: DiaRutina): number {
+  return dia.ejercicios.reduce((total, e) => total + e.series, 0);
+}
+
+/** Duración aproximada: ~2,6 min por serie (con descanso) + calentamiento. */
+export function duracionEstimadaMin(dia: DiaRutina): number {
+  return Math.round(contarSeries(dia) * 2.6 + 14);
+}
+
+/**
  * Día de la semana actual en America/Lima.
  * Se calcula con Intl para no depender de la zona horaria del dispositivo.
  */
@@ -73,6 +95,16 @@ export function getRutinaDeHoy(fecha: Date = new Date()): DiaRutina {
   }
 
   return dia;
+}
+
+/** Fecha de hoy en Lima como "YYYY-MM-DD": la clave de cada sesión. */
+export function getFechaISOHoy(fecha: Date = new Date()): string {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: ZONA_HORARIA,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(fecha);
 }
 
 /** Fecha de hoy en Lima, legible: "10 de septiembre". */
